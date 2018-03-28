@@ -20,7 +20,7 @@ public class BrowserUtils {
 	public static void hover(WebElement element) {
 		Actions actions = new Actions(Driver.getDriver());
 		actions.moveToElement(element).perform();
-	}
+	} 
 	
 	public static List<String> getElementsText(List<WebElement> list){
 		
