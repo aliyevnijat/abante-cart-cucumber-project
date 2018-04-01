@@ -3,7 +3,7 @@
  	Scenario: Change Dollar to Pound Sterling
  	
 	Given I logged into AbanteCart Website 
-	And Click Books
+	And Click Books 
 	And I saved New French With Ease book price money icon 
 	Then I verified money icon is $
 	And I hover overed to currency dropdown menu (left on the top)

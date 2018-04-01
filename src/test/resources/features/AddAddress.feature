@@ -12,7 +12,7 @@
  And Click to New Address 
  And Write "David" as a first name 
  And Write "Silva" as a Last Name 
- And Write "Orange" as a Company 
+ And Write "Orange" as a Company  
  And Write  "683 North" as a Address1 
  And Write "Merge" as a City
   And Select "New York" as a Region/State

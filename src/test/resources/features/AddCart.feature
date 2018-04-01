@@ -4,7 +4,7 @@
  	
 	Given I logged into AbanteCart Website 
 	And Click Skincare  
-	And I sort By: “Price High>Low” 
+	And I sort By: “Price High>Low”  
 	Then I verified Items listed by price high to low 
 	And I clicked on ABSOLUE EYE PRECIOUS CELLS
 	And I changed quantity to the 3
