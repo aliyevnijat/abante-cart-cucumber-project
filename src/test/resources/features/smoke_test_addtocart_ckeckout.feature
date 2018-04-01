@@ -1,5 +1,5 @@
 Feature: 
-
+@smoke_test
   Scenario: 
     Given I logged into AbanteCart Website
     Then I hover over Account and click on Login
@@ -12,7 +12,7 @@ Feature:
     Then Verify that displayed total price equals "35.62"
     Then Click checkout and confirm order and verify main text equals "YOUR ORDER HAS BEEN PROCESSED!" 
     
-@smoke_test
+
   Scenario Outline: 
     Given I logged into AbanteCart Website
     Then I hover over Account and click on Login
