@@ -1,4 +1,4 @@
-Feature: Nails I want to use this template for my feature file
+Feature: Nails
 
   @tag1
   Scenario: Buy Nail Product
