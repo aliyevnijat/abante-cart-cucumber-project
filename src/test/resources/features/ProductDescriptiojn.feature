@@ -1,7 +1,7 @@
 #Author: Ekaterina
 
 
-Feature: Product Description
+ Feature: Product Description
   
   Scenario: Product name and product price on the Product Description page are the same as on the Multiple Products page
     Given I am logged in and on the Home Page

@@ -3,7 +3,7 @@ Feature: Buying Books
   Scenario: Buy audio books
     Given I logged into AbanteCart Website
     And hover over books and click audio CD
-    And click sort by Rating Highest
+    And click sort by Rating Highest 
     And click on New French With Ease title    
     And click add to cart
     Then enter quantity as 3

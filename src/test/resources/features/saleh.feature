@@ -1,7 +1,7 @@
 Feature: Creating tasks
 
   Background: 
-    Given I logged into AbanteCart
+    Given I logged into AbanteCart 
 
   Scenario: Verify Home Page Home Option
     When I hover over the HOME menu bottom

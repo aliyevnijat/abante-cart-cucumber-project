@@ -3,7 +3,7 @@ Feature: Search Item
   Scenario: Search item in a Search Keyword
     Given	 Enter search shoes'<searchShoes>'
     When	Do search
-    
+     
     Then	Multiple results are shown for '<result>'
     Examples:
     | searchTerm | result |

@@ -1,15 +1,14 @@
-	#Author: Muhammet Koklu
+#Author: Muhammet Koklu
 	
-	Feature: Add Address
-
- 
+	Feature: Count Add Address
+  
+ 		
 	Scenario: Add New Address
   
  Given I logged into AbanteCart Website 
  And Click Account
- And Write Login name"admin"
- And password "abc123"
  And Click Manage Address Book
+ Then I count how many address there is in manage address book page 		
  And Click to New Address 
  And Write "David" as a first name 
  And Write "Silva" as a Last Name 
@@ -23,10 +22,9 @@
  
 
   Scenario Outline: Add Multiple New Address
+  
     Given I logged into AbanteCart Website
     And Click Account
-    And Write Login name"admin"
-    And password "abc123"
     And Click Manage Address Book
     And Click to New Address
     And I enter the first name "<firstname>" and the last name "<lastname>"
@@ -37,12 +35,18 @@
     And I enter the phone number "<Zip/PostCode>"
     When I click to continue
     Then I should see contact information for "<firstname> <lastname> <Company><Address1><city><Region/State><Zip/PostCode>"
-
+		Then I count how many address there is in manage address book page 
     Examples: 
       | firstname | lastname | Company | Address1 | city       | Region/State | Zip/PostCode |
       | Satoshi   | Nakamuro | Orange  | Block    | westfielsd | New jersey   |        05042 |
       | John      | Smith    | thefect | Central  | eastfield  | Florida      |        07032 |
       | Rajesh    | Trewedi  | micro   | North    | Life       | New York     |       024521 |
       | Bonnie    | Garcia   | Mymazon | East     | Carlstad   | Virginia     |        29395 |
-
+		
+  
+   
+ 		
+ 
+ 
+ 
  
