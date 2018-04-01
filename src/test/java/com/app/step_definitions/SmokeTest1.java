@@ -31,7 +31,7 @@ public class SmokeTest1 {
 	@Then("^I hover over Account and click on Login$")
 	public void i_hover_over_Account_and_click_on_Login() {
 	    BrowserUtils.hover(hp.accountTop);
-	    hp.loginTop.click();
+	    //hp.loginTop.click();
 	}
 
 	@Then("^I Enter Login name \"([^\"]*)\" and password \"([^\"]*)\" and verify main text equals \"([^\"]*)\"$")
