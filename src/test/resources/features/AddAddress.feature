@@ -16,7 +16,7 @@
  And Write  "683 North" as a Address1 
  And Write "Merge" as a City
   And Select "New York" as a Region/State
-  And Write "11223" as a Zip / Post Code 
+  And Write "11223" as a Zip / Post Code  
  When I click to continue
  Then I should displayed a name ,company name and address as below
  

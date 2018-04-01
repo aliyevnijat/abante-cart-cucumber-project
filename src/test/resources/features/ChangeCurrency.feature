@@ -9,7 +9,7 @@
 	And I hover overed to currency dropdown menu (left on the top)
 	And I changed it to euro
 	Then I verified money icon is changed to £
-	 
+	  
 	  
 	 	Scenario: Change Dollar to Euro
  	
