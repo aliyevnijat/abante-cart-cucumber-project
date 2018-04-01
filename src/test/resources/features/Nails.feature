@@ -2,7 +2,7 @@ Feature: Nails I want to use this template for my feature file
 
   @tag1
   Scenario: Buy Nail Product
-    Given I login into the AbentaCart Website
+    Given I logged into AbanteCart Website
     When I hover over the "MAKEUP"
     Then I click on the "NAILS"
     Then I choose "FLUID SHINE NAIL POLISH"
@@ -12,4 +12,4 @@ Feature: Nails I want to use this template for my feature file
     And I choose City "Illinois"
     And I type Zipcode "60018"
     Then I click Check out button on the bottom
-    Then Click on the Continue Shopping
+    Then Click on the Continue Shopping 
