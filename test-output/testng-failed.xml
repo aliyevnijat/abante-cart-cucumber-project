@@ -6,7 +6,7 @@
       <class name="com.app.runner.CukesRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- com.app.runner.CukesRunner -->

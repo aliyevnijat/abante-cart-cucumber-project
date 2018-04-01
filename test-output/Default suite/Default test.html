@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Apr 01 03:04:44 EDT 2018</td>
+<td>Started on:</td><td>Sun Apr 01 06:09:57 EDT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>28 seconds (28457 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22972 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -80,20 +80,113 @@ function toggleAllBoxes() {
 
 <a href="#Output-2026371507" onClick="toggleAllBoxes();">Show all outputs</a>
 <div class='log' id="Output-2026371507">
-<div "result">I logged into AbanteCart Website (PASSED : 5s)</div><br/>
-<div "result">I hover over Account and click on Login (PASSED : 2s)</div><br/>
-<div "result">I Enter Login name &quot;vasif123&quot; and password &quot;vasif123&quot; and verify main text equals &quot;MY ACCOUNT&quot; (PASSED : 1s)</div><br/>
-<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (PASSED : 1s)</div><br/>
-<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (PASSED : 3s)</div><br/>
-<div "result">Verify that displayed total price equals &quot;12.84&quot; (PASSED : 0s)</div><br/>
-<div "result">Continue shopping (PASSED : 1s)</div><br/>
-<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (PASSED : 3s)</div><br/>
-<div "result">Verify that displayed total price equals &quot;35.62&quot; (PASSED : 0s)</div><br/>
-<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (PASSED : 5s)</div><br/>
+<div "result">I logged into AbanteCart Website (PASSED : 3s)</div><br/>
+<div "result">I hover over Account and click on Login (PASSED : 1s)</div><br/>
+<div "result">I Enter Login name &quot;azat123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 1s)</div><br/>
+<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div><br/>
+<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div><br/>
+<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div><br/>
+<div "result">Continue shopping (SKIPPED)</div><br/>
+<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div><br/>
+<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div><br/>
+<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div><br/>
 </div>
 </td>
-<td></td>
-<td>28</td>
+<td><div><pre>java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
+	at ✽.I Enter Login name &quot;azat123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot;(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2026371507", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2026371507'><pre>java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
+	at ✽.I Enter Login name &quot;azat123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot;(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
+</pre></div></td>
+<td>8</td>
+<td>com.app.runner.CukesRunner@49993335</td></tr>
+<tr>
+<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-9983638" onClick='toggleBox("Output-9983638", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-9983638" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-9983638">
+<div "result">I logged into AbanteCart Website (PASSED : 3s)</div><br/>
+<div "result">I hover over Account and click on Login (PASSED : 1s)</div><br/>
+<div "result">I Enter Login name &quot;jason123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 1s)</div><br/>
+<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div><br/>
+<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div><br/>
+<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div><br/>
+<div "result">Continue shopping (SKIPPED)</div><br/>
+<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div><br/>
+<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div><br/>
+<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
+	at ✽.I Enter Login name &quot;jason123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot;(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace9983638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9983638'><pre>java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
+	at ✽.I Enter Login name &quot;jason123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot;(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
+</pre></div></td>
+<td>7</td>
+<td>com.app.runner.CukesRunner@49993335</td></tr>
+<tr>
+<td title='com.app.runner.CukesRunner.runScenario()'><b>runScenario</b><br>Test class: com.app.runner.CukesRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", ""<br/>
+<a href="#Output-889640998" onClick='toggleBox("Output-889640998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-889640998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-889640998">
+<div "result">I logged into AbanteCart Website (PASSED : 3s)</div><br/>
+<div "result">I hover over Account and click on Login (PASSED : 1s)</div><br/>
+<div "result">I Enter Login name &quot;dow123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 0s)</div><br/>
+<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div><br/>
+<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div><br/>
+<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div><br/>
+<div "result">Continue shopping (SKIPPED)</div><br/>
+<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div><br/>
+<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div><br/>
+<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
+	at ✽.I Enter Login name &quot;dow123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot;(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace889640998", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace889640998'><pre>java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
+	at ✽.I Enter Login name &quot;dow123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot;(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
+</pre></div></td>
+<td>7</td>
 <td>com.app.runner.CukesRunner@49993335</td></tr>
 </table><p>
 </body>
