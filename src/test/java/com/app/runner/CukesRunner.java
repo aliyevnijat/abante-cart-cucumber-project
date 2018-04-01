@@ -5,7 +5,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
 		plugin = {"pretty", 
-				"html:target/cucumber-report"
+				"html:target/cucumber-report",
+				"json:target/cucumber.json"
 				},
 		tags = "@smoke_test", 
 		features="src/test/resources/features",

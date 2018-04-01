@@ -1,11 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="AbanteCart" verbose="2">
 
-	<test name="Automated tests">
+	<test name="SmokeTest1">
 		<classes>
 			<class name ="com.app.runner.CukesRunner"></class>
 		</classes>
 	</test>
 
 </suite>
-
