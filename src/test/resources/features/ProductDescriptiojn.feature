@@ -7,7 +7,7 @@ Feature: Product Description
     Given I am logged in and on the Home Page
     When I go to tab "Fragrance"
     And I choose option "Women"
-    Then I'm on page with "Women" products
+    Then I am on page with "Women" products
     And I see the product with name "Beauty Eau De Parfum" and price "$50"
     When I click on the product with name "Beauty Eau De Parfum" and price "$50"
     Then I see page with the same product name  "Beauty Eau De Parfum" and price "$50"
