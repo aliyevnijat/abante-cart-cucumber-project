@@ -7,7 +7,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		plugin = {"pretty", 
 				"html:target/cucumber-report"
 				},
-		tags = "", 
+		tags = "@smoke_test", 
 		features="src/test/resources/features",
 		glue="com.app.step_definitions",
 		dryRun=false

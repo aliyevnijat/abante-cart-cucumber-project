@@ -111,4 +111,14 @@ public class BrowserUtils {
 		}
 		Driver.getDriver().switchTo().window(origin);
 	}
+	public static double StringToDouble(String str) {
+		double num = 0;
+		String str1 = "";
+		for (int i = 0; i < str.length(); i++) {
+			if (Character.isDigit(str.charAt(i)) || str.charAt(i) == '.') {
+				str1 = str1 + str.charAt(i);
+			}
+		}
+		return num = Double.parseDouble(str1);
+	}
 }
