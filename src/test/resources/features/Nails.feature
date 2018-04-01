@@ -12,4 +12,4 @@ Feature: Nails I want to use this template for my feature file
     And I choose City "Illinois"
     And I type Zipcode "60018"
     Then I click Check out button on the bottom
-    Then Click on the Continue Shopping
+    Then Click on the Continue Shopping 
