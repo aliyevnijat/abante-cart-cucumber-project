@@ -60,13 +60,13 @@ public class SmokeTest1 {
 	   }
 	}
 	
-	@Then("^Verify that displayed total price equals \"([^\"]*)\"$")
+	@Then("^I verify that displayed total price equals \"([^\"]*)\"$")
 	public void verify_that_displayed_total_price_equals(double expectedTotal) {
 		double actualTotal = BrowserUtils.StringToDouble(ma.totalAmount.getText());
 		   assertEquals(actualTotal, expectedTotal, "actual total is " + actualTotal);
 	}
 	
-	@Then("^Continue shopping$")
+	@Then("^I continue shopping$")
 	public void continue_shopping() {
 	    ma.continueShopping.click();
 	}
@@ -77,7 +77,7 @@ public class SmokeTest1 {
 		ma.addToCart.click();
 	}
 
-	@Then("^Click checkout and confirm order and verify main text equals \"([^\"]*)\"$")
+	@Then("^I click checkout and confirm order and verify main text equals \"([^\"]*)\"$")
 	public void click_checkout_and_confirm_order_and_verify_main_text_equals(String mainText) {
 	   ma.checkout2.click();
 	   ma.confirmOrder.click();

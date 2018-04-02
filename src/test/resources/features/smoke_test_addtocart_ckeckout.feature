@@ -24,7 +24,7 @@ Feature: Log in, Add to Cart, Check Out
     And I verify that displayed total price equals "12.84"
     Then I continue shopping
     And I click on Mens Fine Cotton Giraffe Polo Shirts and add to card
-    Then I cvrify that displayed total price equals "35.62"
+    Then I verify that displayed total price equals "35.62"
     Then I click checkout and confirm order and verify main text equals "YOUR ORDER HAS BEEN PROCESSED!"
 
     Examples: 
