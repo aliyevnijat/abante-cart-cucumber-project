@@ -2,6 +2,8 @@ Feature: Nails
 
  
   Scenario: Buy Nail Product
+ 
+  Scenario: Buy Nail Product 
     Given I logged into AbanteCart Website
     When I hover over the "MAKEUP"
     Then I click on the "NAILS"
