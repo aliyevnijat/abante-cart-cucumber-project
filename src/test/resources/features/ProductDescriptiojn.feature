@@ -4,7 +4,7 @@
  Feature: Product Description
   
   Scenario: Click on Product - Product name and product price on the Product Description page are the same as on the Multiple Products page
-    Given I am logged in and on the Home Page
+    Given I logged into AbanteCart Website
     When I go to tab FRAGRANCE
     And I choose option WOMEN
     Then I am on page with WOMEN products
@@ -13,7 +13,7 @@
     Then I see page with the same product name  BEAUTY EAU DE PARFUM and price $50
 
   Scenario: Click on View - Product name on the Product Description page is the same as on the Multiple Products page
-    Given I am logged in and on the Home Page
+    Given I logged into AbanteCart Website
     When I go to tab SKINCARE
     And I choose option EYES
     Then I am on page with EYES products

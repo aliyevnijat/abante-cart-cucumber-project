@@ -4,7 +4,7 @@
 Feature: Add to and Removing from Wishlist
   
   Scenario: Adding product to Wish list
-    Given I am logged in and on the Home Page
+    Given I logged into AbanteCart Website
     When I go to tab Hair Care
     And I choose option Conditioner
     Then I'm on page with Conditioner products
@@ -21,7 +21,7 @@ Feature: Add to and Removing from Wishlist
     
     
     Scenario: Deleting product from Wish list
-    Given I am logged in and on the Home Page
+    Given I logged into AbanteCart Website
     When I go to tab Hair Care
     And I choose option Conditioner
     Then I'm on page with Conditioner products

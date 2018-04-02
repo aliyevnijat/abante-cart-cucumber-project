@@ -5,7 +5,7 @@ Feature: Guest Checkout
  		
 Scenario: Guest Checkout with product search and same payment/shipping addresses
   
- Given User is on ABANTECART  home page 
+ Given I logged into AbanteCart Website 
  And User types "men fragrance" in a search box and hits ENTER
  Then User should see Search page is loaded
  And User navigates to CK ONE GIFT SET product and clicks on a Add to Cart icon  
