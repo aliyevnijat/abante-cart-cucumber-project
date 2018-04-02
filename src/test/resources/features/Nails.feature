@@ -15,3 +15,4 @@ Feature: Nails
     And I type Zipcode "60018"
     Then I click Check out button on the bottom
     Then Click on the Continue Shopping
+ 
