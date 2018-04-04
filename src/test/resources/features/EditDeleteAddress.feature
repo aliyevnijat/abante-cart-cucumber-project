@@ -3,7 +3,7 @@
 Feature: Edit
 
   Scenario: Edit Address
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     And I Click Account
     And I Click Manage Address Book
     Then I Save Secound address name and lastname

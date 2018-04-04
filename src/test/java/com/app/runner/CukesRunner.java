@@ -8,7 +8,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				"html:target/cucumber-report",
 				"json:target/cucumber.json"
 				},
-		tags = "@smoke_test", 
+		tags = "@test", 
 		features="src/test/resources/features",
 		glue="com.app.step_definitions",
 		dryRun=false

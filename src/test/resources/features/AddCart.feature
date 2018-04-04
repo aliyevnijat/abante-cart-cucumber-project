@@ -3,9 +3,9 @@
 Feature: Add Item to cart
 
   Scenario: Add new item to cart
-    Given I logged into AbanteCart Website
+   	Given I am on AbanteCart Home Page
     And I Click Skincare
-    And I sort By: “Price High>Low”
+    And I sort By: ï¿½Price High>Lowï¿½
     Then I verified Items listed by price high to low
     And I clicked on ABSOLUE EYE PRECIOUS CELLS
     And I changed quantity to the 3

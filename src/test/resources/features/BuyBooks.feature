@@ -2,7 +2,7 @@
 Feature: Buying Books
 
   Scenario: Buy audio books
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     And I hover over books and click audio CD
     And I click sort by Rating Highest
     And I click on New French With Ease title

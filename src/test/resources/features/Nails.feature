@@ -4,7 +4,7 @@ Feature: Nails
 
  
   Scenario: Buy Nail Product 
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     When I hover over the "MAKEUP"
     Then following menu options should be visible:
       | Cheeks	   |

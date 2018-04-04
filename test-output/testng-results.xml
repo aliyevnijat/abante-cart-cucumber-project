@@ -1,110 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
     <line>
       <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I hover over Account and click on Login (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">I hover over Home menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I Enter Login name &quot;azat123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 1s)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for Home menu (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I hover over Apparel &amp; Accessories menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for Apparel &amp; Accessories: (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Continue shopping (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I hover over MAKEUP menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for MAKEUP: (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+      <![CDATA[<div "result">I hover over SKINCARE menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I hover over Account and click on Login (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for SKINCARE: (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I Enter Login name &quot;jason123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 1s)</div>]]>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I hover over FRAGRANCE menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for FRAGRANCE: (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Continue shopping (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I hover over MEN menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for MEN: (PASSED : 0s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I hover over Account and click on Login (PASSED : 1s)</div>]]>
+      <![CDATA[<div "result">I hover over HAIR CARE menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I Enter Login name &quot;dow123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 0s)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for HAIR CARE: (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div>]]>
+      <![CDATA[<div "result">I hover over BOOKS menu button (PASSED : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Continue shopping (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div>]]>
+      <![CDATA[<div "result">Following menu options shoul be visible for BOOKS: (PASSED : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22972" started-at="2018-04-01T10:09:57Z" finished-at="2018-04-01T10:10:19Z">
+  <suite name="Default suite" duration-ms="38940" started-at="2018-04-04T03:02:05Z" finished-at="2018-04-04T03:02:44Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="22972" started-at="2018-04-01T10:09:57Z" finished-at="2018-04-01T10:10:19Z">
+    <test name="Default test" duration-ms="38940" started-at="2018-04-04T03:02:05Z" finished-at="2018-04-04T03:02:44Z">
       <class name="com.app.runner.CukesRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="setUpClass" is-config="true" duration-ms="151" started-at="2018-04-01T10:09:57Z" finished-at="2018-04-01T10:09:57Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="setUpClass" is-config="true" duration-ms="168" started-at="2018-04-04T03:02:05Z" finished-at="2018-04-04T03:02:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="8090" started-at="2018-04-01T10:09:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-01T10:10:05Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="5857" started-at="2018-04-04T03:02:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:11Z">
           <params>
             <param index="0">
               <value>
@@ -117,56 +99,19 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
-at ✽.I Enter Login name "azat123" and password "password" and verify main text equals "MY ACCOUNT"(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
               <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I hover over Account and click on Login (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">I hover over Home menu button (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I Enter Login name &quot;azat123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 1s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Continue shopping (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div>]]>
+              <![CDATA[<div "result">Following menu options shoul be visible for Home menu (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="7398" started-at="2018-04-01T10:10:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-01T10:10:12Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="4552" started-at="2018-04-04T03:02:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:16Z">
           <params>
             <param index="0">
               <value>
@@ -179,56 +124,19 @@ at ✽.I Enter Login name "azat123" and password "password" and verify main text
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
-at ✽.I Enter Login name "jason123" and password "password" and verify main text equals "MY ACCOUNT"(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I hover over Account and click on Login (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">I hover over Apparel &amp; Accessories menu button (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I Enter Login name &quot;jason123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 1s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Continue shopping (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div>]]>
+              <![CDATA[<div "result">Following menu options shoul be visible for Apparel &amp; Accessories: (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="7225" started-at="2018-04-01T10:10:12Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-01T10:10:19Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="4651" started-at="2018-04-04T03:02:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:20Z">
           <params>
             <param index="0">
               <value>
@@ -241,56 +149,144 @@ at ✽.I Enter Login name "jason123" and password "password" and verify main tex
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: actual is ACCOUNT LOGIN expected [MY ACCOUNT] but found [ACCOUNT LOGIN]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at com.app.step_definitions.SmokeTest1.i_Enter_Login_name_and_password_and_verify_main_text_equals(SmokeTest1.java:42)
-at ✽.I Enter Login name "dow123" and password "password" and verify main text equals "MY ACCOUNT"(src/test/resources/features/smoke_test_addtocart_ckeckout.feature:19)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over MAKEUP menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for MAKEUP: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="4581" started-at="2018-04-04T03:02:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over SKINCARE menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for SKINCARE: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="4522" started-at="2018-04-04T03:02:25Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over FRAGRANCE menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for FRAGRANCE: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="4614" started-at="2018-04-04T03:02:29Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over MEN menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for MEN: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="5169" started-at="2018-04-04T03:02:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
               <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I hover over Account and click on Login (PASSED : 1s)</div>]]>
+              <![CDATA[<div "result">I hover over HAIR CARE menu button (PASSED : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">I Enter Login name &quot;dow123&quot; and password &quot;password&quot; and verify main text equals &quot;MY ACCOUNT&quot; (FAILED : 0s)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I HoverOver Apparel &amp; accessories and click T-shirts and verify main text equals  &quot;T-SHIRTS&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I click on  Fruit of the Loom T-Shirts 5 Pack - Super Premium and add to card (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Verify that displayed total price equals &quot;12.84&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Continue shopping (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">I click on Mens Fine Cotton Giraffe Polo Shirts and add to card (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Verify that displayed total price equals &quot;35.62&quot; (SKIPPED)</div>]]>
-            </line>
-            <line>
-              <![CDATA[<div "result">Click checkout and confirm order and verify main text equals &quot;YOUR ORDER HAS BEEN PROCESSED!&quot; (SKIPPED)</div>]]>
+              <![CDATA[<div "result">Following menu options shoul be visible for HAIR CARE: (PASSED : 0s)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="tearDownClass" is-config="true" duration-ms="42" started-at="2018-04-01T10:10:19Z" finished-at="2018-04-01T10:10:19Z">
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="runScenario" duration-ms="4738" started-at="2018-04-04T03:02:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-04T03:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into AbanteCart Website (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I hover over BOOKS menu button (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Following menu options shoul be visible for BOOKS: (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.app.runner.CukesRunner@49993335]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2018-04-04T03:02:44Z" finished-at="2018-04-04T03:02:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

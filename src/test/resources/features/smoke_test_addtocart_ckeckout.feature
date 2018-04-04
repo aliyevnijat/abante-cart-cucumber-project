@@ -3,7 +3,7 @@
 Feature: Log in, Add to Cart, Check Out
 
   Scenario: I log in, add multiple items to cart and check out
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     Then I hover over Account and click on Login
     And I Enter Login name "vasif123" and password "vasif123" and verify main text equals "MY ACCOUNT"
     Then I HoverOver Apparel & accessories and click T-shirts and verify main text equals  "T-SHIRTS"

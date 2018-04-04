@@ -3,7 +3,7 @@
 Feature: Count Add Address
 
   Scenario: Add New Address
-    Given I logged into AbanteCart Website
+    Given I am on AbanteCart Home Page
     And Click Account
     And Click Manage Address Book
     Then I count how many address there is in manage address book page

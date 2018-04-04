@@ -3,7 +3,7 @@
 Feature: Verify Home Page Options, Edit Account info
 
   Background: 
-    Given I logged into AbanteCart Website
+   Given I am on AbanteCart Home Page
 
   Scenario: Verify Home Page Home Option
     When I hover over the HOME menu bottom
